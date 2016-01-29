@@ -138,6 +138,14 @@ form:after {
 	z-index: -2;
 }
 #content form { margin: 0 20px; position: relative }
+#content form label {
+	color: #777;
+	font: 20px Helvetica, Arial, sans-serif;
+	letter-spacing: -0.05em;
+	line-height: 20px;
+	margin: 10px 0 30px;
+}
+
 #content form input[type="email"],
 #content form input[type="text"],
 #content form input[type="password"] {
@@ -164,6 +172,7 @@ form:after {
 	padding: 15px 10px 15px 40px;
 	width: 80%;
 }
+
 #content form input[type="email"]:focus,
 #content form input[type="text"]:focus,
 #content form input[type="password"]:focus {

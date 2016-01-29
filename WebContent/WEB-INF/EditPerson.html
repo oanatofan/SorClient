@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ulink</title>
+</head>
+<body>
+	<div class="container">
+		<section id="content">
+			<a href="index.html">Logout</a>
+			<form action="">
+			<h1>Edit (in loc de person pune numele si prenumele)Person</h1>
+			<h2>Personal information</h2>
+			<div>
+				<input type="text" placeholder="Username" readonly="readonly"
+					required id="username" />
+			</div>
+			<div>
+				<input type="password" placeholder="Password" required id="password" />
+			</div>
+			<div>
+				<input type="text" placeholder="Given Name" required id="giveName" />
+			</div>
+			<div>
+				<input type="text" placeholder="Family Name" required
+					id="familyName" />
+			</div>
+			<div>
+				<input type="email" placeholder="Youre email address" required
+					id="email" />
+			</div>
+			<div>
+				<input type="text" placeholder="Family Name" required
+					id="familyName" />
+			</div>
+			<div>
+				<input type="text" placeholder="Address" required id="address" />
+			</div>
+			<h2>Knowledge</h2>
+			<div>
+				<input type="text" placeholder="Job" required id="job" /> <input
+					type="text" placeholder="Organization" required id="organization" />
+				<input type="radio" id="junior" name="skillLevel" value="1" required />
+				<label for="junior">Junior</label> <input type="radio" id="middle"
+					name="skillLevel" value="2" required /> <label for="middle">Middle</label>
+				<input type="radio" id="senior" name="skillLevel" value="3" required />
+				<label for="senior">Senior</label> <input type="date"
+					placeholder="begin date(zz-ll-an)" required id="beginDate" /> <input
+					type="date" placeholder="end date(zz-ll-an)" id="endDate" /> <input
+					type="submit" value="Add" />
+			</div>
+			<div>aici vei adauga lista de joburi lucrate care se
+				completeaza cand dai add(daca nu poti sa le pui macar pune-le in
+				memorie )</div>
+			<div>
+				<input type="text" placeholder="Skill" required id="skill" /> <input
+					type="radio" id="junior" name="skillLevel" value="1" required /> <label
+					for="junior">Junior</label> <input type="radio" id="middle"
+					name="skillLevel" value="2" required /> <label for="middle">Middle</label>
+				<input type="radio" id="senior" name="skillLevel" value="3" required />
+				<label for="senior">Senior</label> <input type="submit" value="Add" />
+			</div>
+			<div>aici vei adauga lista de skill-uri care se completeaza
+				cand dai add(daca nu poti sa le pui macar pune-le in memorie )</div>
+			<h2>Others</h2>
+			<div>
+				<input type="text" placeholder="Salary required(min-max) in euros"
+					id="salary" />
+			</div>
+			<div>
+				<input type="radio" id="married" name="married" value="1" required />
+				<label for="married">Married</label> <input type="radio"
+					id="notMarried" name="married" value="2" required /> <label
+					for="notMarried">Middle</label>
+			</div>
+			<h2>Friends</h2>
+			<div>lista de prieteni</div>
+			<div>
+
+				<input type="submit" value="Update" />
+
+
+			</div>
+			</form>
+			<!-- form -->
+
+		</section>
+		<!-- content -->
+	</div>
+	<!-- container -->
+</body>
+</html>
