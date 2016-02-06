@@ -10,6 +10,21 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
   
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+ <servlet>
+<servlet-name>LoginServlet</servlet-name>
+<servlet-class>com.Sor.User.LoginServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>LoginServlet</servlet-name>
+<url-pattern>/sor</url-pattern>
+</servlet-mapping>
+>>>>>>> origin/master
+>>>>>>> origin/master
 
 </web-app>

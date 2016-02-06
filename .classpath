@@ -40,6 +40,10 @@
 	<classpathentry kind="lib" path="G:/soft/eclipse/workspace/SorServer/WebContent/WEB-INF/lib/javassist-3.18.1-GA.jar"/>
 	<classpathentry kind="lib" path="G:/soft/eclipse/workspace/SorServer/WebContent/WEB-INF/lib/javax.annotation-api-1.2.jar"/>
 	<classpathentry kind="lib" path="G:/soft/eclipse/workspace/SorServer/WebContent/WEB-INF/lib/javax.inject-2.4.0-b31.jar"/>
+<<<<<<< HEAD
+=======
+	<classpathentry kind="lib" path="G:/soft/eclipse/workspace/SorServer/WebContent/WEB-INF/lib/javax.servlet-api-3.0.1.jar"/>
+>>>>>>> origin/master
 	<classpathentry kind="lib" path="G:/soft/eclipse/workspace/SorServer/WebContent/WEB-INF/lib/javax.ws.rs-api-2.0.1.jar"/>
 	<classpathentry kind="lib" path="G:/soft/eclipse/workspace/SorServer/WebContent/WEB-INF/lib/jaxb-api-2.2.7.jar"/>
 	<classpathentry kind="lib" path="G:/soft/eclipse/workspace/SorServer/WebContent/WEB-INF/lib/jcl-over-slf4j-1.7.12.jar"/>
