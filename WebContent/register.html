@@ -5,14 +5,14 @@
 <!--[if (gte IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>ULink-Register</title>
+<title>Register</title>
 <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
 <div class="container">
 	<section id="content">
-		<form action="">
-			<h1>Login</h1>
+		<form action="RegisterServlet" method ="post">
+			<h1>Register</h1>
 			<div>
 				<input type="text" placeholder="Username" required id="username" />
 			</div>
@@ -29,8 +29,6 @@
 				<input type="email" placeholder="Youre email address" required id="email" />
 			</div>
 			<div>
-				<input type="radio" id="uo" name="userType" value="Organization" required />
-				<label for = "uo">Organization</label>
                 <input type="radio" id="up" name="userType" value="Person"  required  />
                 <label for = "up">Person</label>
                   
