@@ -54,6 +54,7 @@ public class SearchServlet extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+<<<<<<< HEAD
 		session=request.getSession(false);
 		String userId=(String) session.getAttribute("id");
 		
@@ -106,6 +107,12 @@ public class SearchServlet extends HttpServlet {
 		
 		
 
+=======
+		// TODO Auto-generated method stub
+		response.getWriter().append("Served at: ").append(request.getContextPath());
+		System.out.println("x");
+	}
+>>>>>>> origin/master
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
