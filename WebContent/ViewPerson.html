@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ulink</title>
+<link rel="stylesheet" type="text/css" href="style2.css" />
+</head>
+<body>
+	<div class="container">
+		<section id="content">
+			<a href="index.html">Logout</a>
+			<a href="EditPerson.html">Edit Person</a>
+			<a href="FriendList.html">Suggest Friends</a> 
+			<a href="OrganizationList.html">Suggest jobs</a> 
+			<a href="Search.html">Search Friends</a>
+			<a href="Messages.html">Inbox</a>
+			<h1>View (in loc de person pune numele si prenumele)Person</h1>
+			<h2>Personal information</h2>
+			<div>
+				<input type="text" placeholder="Username" readonly="readonly"
+					required id="username" />
+			</div>
+			<div>
+				<input type="text" placeholder="Given Name" readonly="readonly"
+					required id="giveName" />
+			</div>
+			<div>
+				<input type="text" placeholder="Family Name" readonly="readonly"
+					required id="familyName" />
+			</div>
+			<div>
+				<input type="email" placeholder="Youre email address"
+					readonly="readonly" required id="email" />
+			</div>
+			<div>
+				<input type="text" placeholder="Family Name" readonly="readonly"
+					id="familyName" />
+			</div>
+			<div>
+				<input type="text" placeholder="Address" readonly="readonly"
+					id="address" />
+			</div>
+			<h2>Knowledge</h2>
+			<div>aici vei adauga lista de joburi lucrate care se
+				completeaza cand dai add(daca nu poti sa le pui macar pune-le in
+				memorie )</div>
+			<div>aici vei adauga lista de skill-uri care se completeaza
+				cand dai add(daca nu poti sa le pui macar pune-le in memorie )</div>
+			<h2>Others</h2>
+			<div>
+				<input type="text" placeholder="Salary required(min-max) in euros"
+					readonly="readonly" id="salary" />
+			</div>
+			<div>
+				<input type="radio" id="married" name="married" value="1"
+					readonly="readonly" /> <label for="married">Married</label> <input
+					type="radio" id="notMarried" name="married" value="2"
+					readonly="readonly" /> <label for="notMarried">Middle</label>
+			</div>
+			<h2>Friends</h2>
+			<div>lista de prieteni</div>
+			<div>
+
+				<input type="submit" value="Update" />
+
+
+			</div>
+
+
+		</section>
+		<!-- content -->
+	</div>
+	<!-- container -->
+</body>
+</html>
