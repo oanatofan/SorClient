@@ -52,7 +52,11 @@ public class LoginResponse {
 	@Override
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
+<<<<<<< HEAD
 		sb.append("class LoginResponse {\n"); 
+=======
+		sb.append("class LoginResponse {\n");
+>>>>>>> origin/master
 
 		sb.append("    userId: ").append(toIndentedString(userId)).append("\n");
 		sb.append("    userType: ").append(toIndentedString(userType)).append("\n");
